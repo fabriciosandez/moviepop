@@ -140,49 +140,6 @@
   }
 }
 
-@media (max-width: 844px) {
-  .media {
-    width: 160px;
-    margin: 0px;
-    margin-right: 2px;
-    margin-bottom: 15px;
-  }
-  .title {
-    font-size: 12px;
-  }
-  .subTitle {
-    font-size: 12px;
-  }
-  .modalTitle {
-    font-size: 14px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .modalDescription {
-    font-size: 12px;
-    width: 95%;
-  }
-  .detailModal {
-    display: flex;
-    flex-direction: column;
-  }
-  .modalLandscape {
-    display: flex;
-    object-fit: contain;
-    border-radius: 10px;
-  }
-  .modalPortrait {
-    display: none;
-  }
-  .modalAbout {
-    width: 89%;
-  }
-  .tagline {
-    font-size: 11px;
-  }
-}
-
 @media (max-width: 1460px) {
   .modalLandscape {
     display: flex;
@@ -199,5 +156,47 @@
   }
   .modalAbout {
     width: 94%;
+  }
+}
+
+@media (max-width: 844px) {
+  .media {
+    width: 160px;
+    margin: 0px;
+    margin-right: 2px;
+    margin-bottom: 15px;
+  }
+  .title {
+    font-size: 12px;
+  }
+  .subTitle {
+    font-size: 12px;
+  }
+  .modalTitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .modalDescription {
+    font-size: 11px;
+  }
+  .detailModal {
+    display: flex;
+    flex-direction: column;
+  }
+  .modalLandscape {
+    display: flex;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  .modalPortrait {
+    display: none;
+  }
+  .modalAbout {
+    margin-top: 0px;
+    width: 94%;
+  }
+  .tagline {
+    font-size: 12px;
   }
 }
