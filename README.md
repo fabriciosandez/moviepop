@@ -4,6 +4,10 @@ This project was created using React.JS and Material UI. The different routes we
 
 The website was designed considering a Full HD Desktop resolution of 1920x1080 and the responsive design was created for IPhone 12 resolution. However, it is also posible to view the site correctly on other resolutions.
 
+Live site: https://moviepopweb.netlify.app/
+
+![image](https://user-images.githubusercontent.com/115194676/212170099-3690f0b1-82bd-4f44-988a-d7e1ecce08cf.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
