@@ -1,0 +1,203 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 5px;
+  margin: 0 10px;
+  margin-bottom: 30px;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.media:hover {
+  background-color: white;
+  color: black;
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.moviedata {
+  display: flex;
+  flex-direction: column;
+  height: 95px;
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4px;
+}
+
+.modalLandscape {
+  display: none;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.modalPortrait {
+  object-fit: contain;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.tagline {
+  padding-bottom: 10px;
+  align-self: center;
+}
+
+.detailModal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.detailModal::-webkit-scrollbar {
+  display: none;
+}
+
+.modalAbout {
+  margin-top: 9px;
+  padding: 10px;
+  width: 57%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-evenly;
+  font-weight: 300;
+}
+
+.modalTitle {
+  height: 12%;
+  font-size: 1.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalDescription {
+  display: flex;
+  height: 40%;
+  overflow-y: scroll;
+  padding: 15px;
+  border-radius: 20px;
+  scrollbar-width: thin;
+  box-shadow: inset 0 0 5px #000000;
+  text-align: justify;
+}
+
+.modalDescription::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1520px) {
+  .media {
+    width: 290px;
+  }
+}
+
+@media (max-width: 1470px) {
+  .media {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1275px) {
+  .media {
+    width: 220px;
+  }
+}
+
+@media (max-width: 1156px) {
+  .media {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1076px) {
+  .media {
+    width: 200px;
+    margin: 0 4px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 844px) {
+  .media {
+    width: 160px;
+    margin: 0px;
+    margin-right: 2px;
+    margin-bottom: 15px;
+  }
+  .title {
+    font-size: 12px;
+  }
+  .subTitle {
+    font-size: 12px;
+  }
+  .modalTitle {
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .modalDescription {
+    font-size: 12px;
+    width: 95%;
+  }
+  .detailModal {
+    display: flex;
+    flex-direction: column;
+  }
+  .modalLandscape {
+    display: flex;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  .modalPortrait {
+    display: none;
+  }
+  .modalAbout {
+    width: 89%;
+  }
+  .tagline {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .modalLandscape {
+    display: flex;
+    border-radius: 10px;
+    height: 30%;
+    object-fit: cover;
+  }
+  .modalPortrait {
+    display: none;
+  }
+  .detailModal {
+    display: flex;
+    flex-direction: column;
+  }
+  .modalAbout {
+    width: 94%;
+  }
+}
